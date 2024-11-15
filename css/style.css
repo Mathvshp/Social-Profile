@@ -1,0 +1,67 @@
+body{
+    background-color: #141414;
+    font-family: inter-regular;
+    color: white;
+}
+
+body section{
+    background-color: #1f1f1f;
+    width: 350px;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    -webkit-box-shadow: 0px 0px 50px -7px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 0px 50px -7px rgba(0,0,0,0.52);
+    box-shadow: 0px 0px 50px -7px rgba(0,0,0,0.52);
+}
+
+section picture img{
+    width: 70px;
+    border-radius: 100%;
+
+}
+
+.texto{
+    margin: 20px;
+}
+
+section h3{
+    margin: 5px;
+}
+
+section p{
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+}
+
+button{
+    width: 300px;
+    border: none;
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 5px;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #b6d041;
+    font-weight: bold;
+    color: black;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+section h6{
+    color: #b6d041;
+}
